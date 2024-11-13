@@ -16,82 +16,62 @@
     <title>AqGoes | Blog</title>
 </head>
 <body>
+
+  <!--Cabeçalho-->
  <header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">AqGos</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categorias
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">HTML | CSS</a></li>
-              <li><a class="dropdown-item" href="#">JAVASCRIPT</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">WORDPRESS</a></li>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="logo">AqGoEs</div>
+        </div>
+
+        <div class="col-md-6">
+          <nav>
+            <h2>Menus</h2>
+          </nav>
+        </div>
+        
+      </div>
+    </div><!--Finalizanndo contianer é as linha do cabeçalho-->
+ </header><!--finalinzando o header-->
+
+ <main>
+   <!--Seção Artigos e Sidebar-->
+   <div class="container">
+    <div class="row">
+
+      <div class="col-md-8">
+        <article class="artigos">
+          <h1>Artigos</h1>
+        </article><!--Artigos-->
+      </div>
+     
+      <div class="col-md-4">
+        <aside class="barra-lateral">
+          <h2>Sidebar</h2>
+       </aside>
+      </div>
+    
+    </div>
+   </div><!--Finalizando container para os artidos e para a barra lateral-->
+</main>
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <nav class="nav_menu_footer">
+            <ul>
+              <li>UM</li>
+              <li>DOIS</li>
+              <li>TRÊS</li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Aqgoes</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Pesquisa</button>
-        </form>
+          </nav>
+        </div><!--Linha para os menus footer-->
+
+        <div class="col-md-4">
+          <p>Aqgoes CopyRight</p>
+        </div>
       </div>
     </div>
-  </nav>
- </header><!--finalinzando o header-->
- 
-
-    <h2>Reservado para o blog</h2>
-    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quam animi dolor labore placeat dolore, enim quas dolorem, corrupti numquam sint culpa? Itaque blanditiis dolore mollitia corporis reprehenderit voluptas quia?</p>
-
-    <footer class="bg-dark text-light">
-        <div class="container-fluid py-3">
-        <div class="row">
-          <div class="col-4">
-            <ul class="nav flex-column">
-              <li class="nav-link"><a href="#">Retornar à Loja</a></li>
-              <li class="nav-link"><a href="#">Sobre</a></li>
-              <li class="nav-link"><a href="#">Contato</a></li>
-              <li class="nav-link"><a href="#">Suporte</a></li>
-            </ul>
-          </div>
-          <div class="col-8">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed necessitatibus id asperiores iste fugiat,             praesentium obcaecati explicabo consequatur voluptatem eos earum blanditiis dolorem eaque veritatis libero?               Magni, nam fugiat.
-            </p>
-            <ul class="nav">
-              <li class="nav-link" ><i class="fab fa-facebook fa-3x "></i></li>
-              <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
-              <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
-              <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div class="text-center" style="background-color: #333; padding: 20px;" >
-          &copy 2024 Copyright: <a href="https://aqgoes.com/" target="_blank">AqGoes</a>
-        </div>
-      </footer>
-     </main>
-    
-    
-     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="js/customer.js"></script>
-    </body>
-    </html>
+</footer>
