@@ -1,18 +1,13 @@
-/*AqGoes Desenvolvimento*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif
-}
-.banner{
-    margin-top: 70px;
-}
-.banner, h5, p {
-    color: aliceblue;
-}
-.banner img{
-    width: 100%;
-    height: 700px;
-   
-}
+#slide {
+    width: 500px;
+    overflow: hidden;
+    margin: 10px auto;
+    height: 333px;
+    box-shadow: 0 0 8px #000;
+    position: relative; }
+    
+    #slide img {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    left: 0; }
