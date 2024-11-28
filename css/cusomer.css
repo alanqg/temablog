@@ -1,13 +1,90 @@
-#slide {
-    width: 500px;
-    overflow: hidden;
-    margin: 10px auto;
-    height: 333px;
-    box-shadow: 0 0 8px #000;
-    position: relative; }
-    
-    #slide img {
-    position: absolute;
-    z-index: 1;
-    display: none;
-    left: 0; }
+/*Fontes*/
+:root{
+    --fonte-padrao: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    --fonte-titulos: "Montserrat",  sans-serif;
+    --fonte-menu:  "Poppins",  sans-serif;
+}
+/*Cores Global*/
+:root{
+    --background-color: #fff; /*Cor de fundo para todo o site, incluindo seções individuais*/
+    --cor-padaro: #212529;/*Cor padrão usada para a maior parte do conteúdo de texto em todo o site*/
+    --cor-titulos: #32353a;/*Cor para títulos, subtítulos e títulos em todo o site*/
+    --cor-destaques: #e84545;/*Cor de destaque que representa sua marca no site. É usado para botões, links e outros elementos que precisam se destacar*/
+
+}
+
+/*Cores para o menu*/
+:root{
+    --cor-menu: #3a3939;  /*Cores padrão para os links*/
+    --cor-houver-nav: #e84545; /*Cores houver (ao passar o mouse)*/
+
+}
+
+/*Core secundárias */
+.light-background {
+    --background-color: #f9f9f9;
+    --surface-color: #ffffff;
+  }
+  
+  .dark-background {
+    --background-color: #060606;
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --surface-color: #e84545;;
+    --contrast-color: #ffffff;
+  }
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    color: var(--cor-padaro);
+    background-color: var(--background-color);
+    font-family: var(--fonte-padrao);
+}
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: var(--cor-titulos);
+    font-family: var(--fonte-titulos);
+}
+.header{
+    color: var(--cor-padaro);
+    background-color: var(--background-color);
+    padding: 20px 0;
+    transition:  all 0.5s;
+}
+.header .logo{
+    line-height: 1;
+}
+.header .logo img{
+    max-height: 36px;
+    margin-right: 8px;
+}
+.header .logo h1{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: var(--cor-titulos);
+}
+.header .logo span{
+    color: var(--cor-destaques);
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 3px;
+}
