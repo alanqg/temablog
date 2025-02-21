@@ -1,0 +1,20 @@
+{
+  "name": "temablog",
+  "version": "1.0.0",
+  "description": "<h1>Blog AqGoEs</h1>\r <p>Projetos desenvolvido para ser o modelo do blog aqgoes</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanqg/temablog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanqg/temablog/issues"
+  },
+  "homepage": "https://github.com/alanqg/temablog#readme"
+}
